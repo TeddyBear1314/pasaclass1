@@ -15,9 +15,6 @@ import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 import java.io.IOException;
 import java.util.StringTokenizer;
 
-/**
- * Created by dell on 2015/12/27.
- */
 public class WordCount {
     public static class TokenizerMapper extends Mapper<Object, Text, Text, IntWritable> {
         private final static IntWritable one = new IntWritable(1);
