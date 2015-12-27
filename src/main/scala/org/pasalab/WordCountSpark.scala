@@ -3,9 +3,7 @@ package org.pasalab
 import org.apache.spark.{SparkContext, SparkConf}
 
 
-/**
-  * Created by dell on 2015/12/27.
-  */
+
 object WordCountSpark {
   def main(args: Array[String]) {
     val conf = new SparkConf()
